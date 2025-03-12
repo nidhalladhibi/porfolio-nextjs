@@ -1,0 +1,80 @@
+body {
+  background-color: lightgray !important;
+}
+
+/* 🌍 Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🏠 Header Navigation */
+.navbar {
+  background-color: #007bff !important;
+  padding: 15px;
+}
+
+.navbar a {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #f8f9fa !important;
+}
+
+/* 📜 Sections */
+.container {
+  max-width: 1200px;
+}
+
+/* 📌 Titres */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* 🎨 Cartes */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* 🚀 Boutons */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
