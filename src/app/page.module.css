@@ -1,0 +1,13 @@
+.title {
+  color: #0070f3;
+  font-size: 2rem;
+  text-align: center;
+}
+.home {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

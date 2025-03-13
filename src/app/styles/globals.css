@@ -1,0 +1,74 @@
+/* Importer Bootstrap */
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/* Styles généraux */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa; /* Couleur de fond douce */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Conteneur principal */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Titres */
+h1 {
+  text-align: center;
+  color: #007bff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Formulaire */
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Icônes Réseaux Sociaux */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  font-size: 2rem;
+  color: #333;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
